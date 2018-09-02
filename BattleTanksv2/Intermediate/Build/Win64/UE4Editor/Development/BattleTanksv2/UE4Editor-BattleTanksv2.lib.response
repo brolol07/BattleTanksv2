@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BattleTanksv2.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\BattleTanksv2Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\BattleTanksv2.cpp.obj"
+"C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\BattleTanksv2GameModeBase.cpp.obj"
+"C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\BattleTanksv2.init.gen.cpp.obj"
+"C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\BattleTanksv2GameModeBase.gen.cpp.obj"
+"C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\PCLaunch.rc.res"
+/OUT:"C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2.lib"
