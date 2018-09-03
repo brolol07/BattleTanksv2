@@ -24,7 +24,6 @@
 /wd4838
 /we4668
 /I .
-/I "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Source\BattleTanksv2\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -404,7 +403,6 @@
 /I ThirdParty\libSampleRate
 /I "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Inc\BattleTanksv2"
 /I "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Source"
-/I "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Source\BattleTanksv2\Public"
 /I "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Source\BattleTanksv2"
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
