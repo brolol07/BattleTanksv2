@@ -5,3 +5,21 @@
 
 
 
+void ATankAIController::BeginPlay() {
+	Super::BeginPlay();
+
+	auto ControlledTank = GetControlledTank();
+	if (!ControlledTank) {
+		UE_LOG(LogTemp, Warning, TEXT("AI tank isn't working"));
+
+
+	}
+	UE_LOG(LogTemp, Warning, TEXT("AI tank possessing: %s"), *(ControlledTank->GetName()));
+}
+
+ATank* ATankAIController::GetControlledTank() const {
+
+
+	return  Cast<ATank>(GetPawn());
+}
+
