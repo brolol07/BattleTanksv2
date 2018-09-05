@@ -17,6 +17,15 @@ void ATankAIController2::BeginPlay() {
 	UE_LOG(LogTemp, Warning, TEXT("AI found: %s"), *(PlayerTank->GetName()));
 }
 
+void ATankAIController2::Tick(float DeltaSeconds) {
+
+	Super::Tick(DeltaSeconds); 
+
+	if (GetPlayerTank()) {
+		GetControlledTank()->AimAt(GetPlayerTank()->GetActorLocation());
+	}
+}
+
 ATank* ATankAIController2::GetControlledTank() const {
 
 

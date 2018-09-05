@@ -1,70 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\BattleTanksv2.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{CEA7BA4A-3E53-4BF0-8482-A8F65CC43D2A}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\BattleTanksv2.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\BattleTanksv2Editor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{526A263A-211D-4B69-9FC4-D07791AD4DA3}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\BattleTanksv2">
-			<UniqueIdentifier>{8D421932-C131-486B-8873-93BDE2CEF52C}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\BattleTanksv2\BattleTanksv2.Build.cs">
-			<Filter>Source\BattleTanksv2</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\BattleTanksv2\BattleTanksv2.cpp">
-			<Filter>Source\BattleTanksv2</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\BattleTanksv2\BattleTanksv2.h">
-			<Filter>Source\BattleTanksv2</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\BattleTanksv2\BattleTanksv2GameModeBase.cpp">
-			<Filter>Source\BattleTanksv2</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\BattleTanksv2\BattleTanksv2GameModeBase.h">
-			<Filter>Source\BattleTanksv2</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\BattleTanksv2\Tank.cpp">
-			<Filter>Source\BattleTanksv2</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\BattleTanksv2\Tank.h">
-			<Filter>Source\BattleTanksv2</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\BattleTanksv2\TankAIController2.cpp">
-			<Filter>Source\BattleTanksv2</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\BattleTanksv2\TankAIController2.h">
-			<Filter>Source\BattleTanksv2</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\BattleTanksv2\TankPlayerController.cpp">
-			<Filter>Source\BattleTanksv2</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\BattleTanksv2\TankPlayerController.h">
-			<Filter>Source\BattleTanksv2</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\BattleTanksv2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{CEA7BA4A-3E53-4BF0-8482-A8F65CC43D2A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BattleTanksv2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BattleTanksv2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{526A263A-211D-4B69-9FC4-D07791AD4DA3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BattleTanksv2">
+      <UniqueIdentifier>{8D421932-C131-486B-8873-93BDE2CEF52C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BattleTanksv2\BattleTanksv2.Build.cs">
+      <Filter>Source\BattleTanksv2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BattleTanksv2\BattleTanksv2.cpp">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleTanksv2\BattleTanksv2.h">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BattleTanksv2\BattleTanksv2GameModeBase.cpp">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleTanksv2\BattleTanksv2GameModeBase.h">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BattleTanksv2\Tank.cpp">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleTanksv2\Tank.h">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BattleTanksv2\TankAIController2.cpp">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleTanksv2\TankAIController2.h">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BattleTanksv2\TankPlayerController.cpp">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleTanksv2\TankPlayerController.h">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BattleTanksv2\TankAimingComponent.h">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BattleTanksv2\TankBarrel.h">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BattleTanksv2\TankAimingComponent.cpp">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BattleTanksv2\TankBarrel.cpp">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
