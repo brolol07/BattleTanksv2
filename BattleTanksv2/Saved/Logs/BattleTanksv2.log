@@ -1,4 +1,4 @@
-﻿Log file open, 09/05/18 09:57:21
+﻿Log file open, 09/05/18 18:59:17
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BattleTanksv2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.314962
+LogStats: Stats thread started at 0.369553
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.153s to configure plugins.
+LogStreaming: Display: Took  0.149s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,197 +147,588 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.004s to delete old logs.
+LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.05-13.57.21:598][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.05-13.57.21:598][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.05-13.57.21:615][  0]LogHAL: Display: Platform has ~ 16 GB [17054638080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.05-13.57.21:615][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.05-13.57.21:615][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.05-13.57.21:615][  0]LogInit: Computer: BROCKS-PC
-[2018.09.05-13.57.21:615][  0]LogInit: User: BrockDavis
-[2018.09.05-13.57.21:615][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.05-13.57.21:615][  0]LogInit: High frequency timer resolution =2.531249 MHz
-[2018.09.05-13.57.21:616][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.09.05-13.57.21:616][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.05-13.57.21:616][  0]LogMemory: Process Physical Memory: 100.00 MB used, 100.00 MB peak
-[2018.09.05-13.57.21:616][  0]LogMemory: Process Virtual Memory: 91.04 MB used, 91.04 MB peak
-[2018.09.05-13.57.21:616][  0]LogMemory: Physical Memory: 7686.79 MB used,  8577.78 MB free, 16264.57 MB total
-[2018.09.05-13.57.21:616][  0]LogMemory: Virtual Memory: 4644.85 MB used,  8577.78 MB free, 134217728.00 MB total
-[2018.09.05-13.57.21:640][  0]LogInit: Using OS detected language (en-US).
-[2018.09.05-13.57.21:640][  0]LogInit: Using OS detected locale (en-US).
-[2018.09.05-13.57.21:642][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.09.05-13.57.22:119][  0]LogStreaming: Display: Took  0.480s to InitEngineTextLocalization.
-[2018.09.05-13.57.22:120][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.05-13.57.22:176][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.05-13.57.22:176][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.05-13.57.22:479][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2018.09.05-13.57.22:479][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.05-13.57.22:543][  0]LogD3D11RHI:    0. 'NVIDIA Quadro M2000M' (Feature Level 11_0)
-[2018.09.05-13.57.22:543][  0]LogD3D11RHI:       4053/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.09.05-13.57.22:556][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2018.09.05-13.57.22:556][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.09.05-13.57.22:558][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.05-13.57.22:558][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.05-13.57.22:558][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.05-13.57.22:606][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.05-13.57.22:606][  0]LogD3D11RHI:     GPU DeviceId: 0x13b0 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.05-13.57.22:606][  0]LogWindows: EnumDisplayDevices:
-[2018.09.05-13.57.22:606][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2018.09.05-13.57.22:606][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.09.05-13.57.22:607][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.09.05-13.57.22:607][  0]LogWindows:    3. 'NVIDIA Quadro M2000M' (P:0 D:0)
-[2018.09.05-13.57.22:607][  0]LogWindows:    4. 'NVIDIA Quadro M2000M' (P:0 D:0)
-[2018.09.05-13.57.22:607][  0]LogWindows:    5. 'NVIDIA Quadro M2000M' (P:0 D:0)
-[2018.09.05-13.57.22:608][  0]LogWindows:    6. 'NVIDIA Quadro M2000M' (P:0 D:0)
-[2018.09.05-13.57.22:608][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.09.05-13.57.22:608][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro M2000M
-[2018.09.05-13.57.22:608][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
-[2018.09.05-13.57.22:608][  0]LogD3D11RHI:      Driver Date: 3-16-2018
-[2018.09.05-13.57.22:608][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
-[2018.09.05-13.57.22:645][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.05-13.57.22:664][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.09.05-13.57.22:665][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Intermediate/Shaders/WorkingDirectory/1216/).
-[2018.09.05-13.57.22:665][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Brock Davis/AppData/Local/Temp/UnrealShaderWorkingDir/468C94B74BF6A7B00BE6A19E6821E1BD/'.
-[2018.09.05-13.57.22:985][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.05-13.57.23:002][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.05-13.57.23:017][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.05-13.57.23:033][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.05-13.57.23:049][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.05-13.57.23:066][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.05-13.57.23:086][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.05-13.57.23:102][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.05-13.57.23:112][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.05-13.57.23:205][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.05-13.57.23:276][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.05-13.57.23:276][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.05-13.57.23:310][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.05-13.57.23:310][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.05-13.57.23:326][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.05-13.57.23:346][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.05-13.57.23:363][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.05-13.57.23:378][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.05-13.57.23:393][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.05-13.57.23:393][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.05-13.57.23:479][  0]LogXGEController: Cleaning working directory: C:/Users/Brock Davis/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.09.05-13.57.23:479][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.05-13.57.23:479][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.05-13.57.23:479][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.05-13.57.24:394][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.05-13.57.24:462][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Brock Davis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.05-13.57.24:463][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Brock Davis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.05-13.57.24:463][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.05-13.57.24:463][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.05-13.57.24:463][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.05-13.57.24:463][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.05-13.57.24:477][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.05-13.57.24:490][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brock Davis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.05-13.57.24:490][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.05-13.57.24:490][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.05-13.57.24:511][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.05-13.57.24:513][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.05-13.57.24:513][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.05-13.57.24:605][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
-[2018.09.05-13.57.25:008][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.05-13.57.25:175][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.05-13.57.25:180][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.05-13.57.25:180][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.05-13.57.25:180][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.05-13.57.25:180][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.05-13.57.25:198][  0]LogNetVersion: BattleTanksv2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 896500446)
-[2018.09.05-13.57.25:861][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.144187 seconds
-[2018.09.05-13.57.25:869][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.05-13.57.25:869][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.09.05-13.57.25:869][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.05-13.57.26:911][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.05-13.57.26:925][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.05-13.57.27:096][  0]SourceControl: Source control is disabled
-[2018.09.05-13.57.27:096][  0]SourceControl: Source control is disabled
-[2018.09.05-13.57.27:098][  0]SourceControl: Source control is disabled
-[2018.09.05-13.57.27:099][  0]SourceControl: Source control is disabled
-[2018.09.05-13.57.27:278][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.05-13.57.27:343][  0]LogOcInput: OculusInput pre-init called
-[2018.09.05-13.57.27:425][  0]LogEngine: Initializing Engine...
-[2018.09.05-13.57.27:454][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2018.09.05-13.57.27:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.05-13.57.27:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.05-13.57.27:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.05-13.57.27:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.05-13.57.27:705][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.05-13.57.27:724][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.05-13.57.27:748][  0]LogInit: XAudio2 using 'Speaker (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.05-13.57.28:297][  0]LogInit: FAudioDevice initialized.
-[2018.09.05-13.57.28:297][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.05-13.57.28:365][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Brock Davis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.05-13.57.28:369][  0]LogInit: Texture streaming: Enabled
-[2018.09.05-13.57.28:390][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.05-13.57.28:408][  0]LogInit: Transaction tracking system initialized
-[2018.09.05-13.57.28:448][  0]BlueprintLog: New page: Editor Load
-[2018.09.05-13.57.28:587][  0]LocalizationService: Localization service is disabled
-[2018.09.05-13.57.28:904][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.05-13.57.28:904][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.05-13.57.28:904][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.05-13.57.28:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.05-13.57.28:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.05-13.57.28:905][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.05-13.57.28:905][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.05-13.57.29:067][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/' took 0.02s
-[2018.09.05-13.57.29:067][  0]SourceControl: Source control is disabled
-[2018.09.05-13.57.29:067][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.05-13.57.29:068][  0]LightingResults: New page: Lighting Build
-[2018.09.05-13.57.29:072][  0]MapCheck: New page: Map Check
-[2018.09.05-13.57.29:072][  0]LightingResults: New page: Lighting Build
-[2018.09.05-13.57.29:248][  0]LogBlueprint: Error: [Compiler Tank_BP] Can't connect pins  Barrel  and  Barrel to Set : Static Mesh Component Object Reference is not compatible with Tank Barrel Object Reference.
-[2018.09.05-13.57.29:248][  0]LogBlueprint: Error: [Compiler Tank_BP] Can't connect pins  Barrel to Set  and  Barrel : Tank Barrel Object Reference is not compatible with Static Mesh Component Object Reference.
-[2018.09.05-13.57.29:250][  0]LogBlueprint: Warning: [Compiler Tank_BP] [0009.95] Compile of Tank_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 7 ms] (/Game/Tank/Tank_BP.Tank_BP)
-[2018.09.05-13.57.29:542][  0]LogAIModule: Creating AISystem for world BattleGround
-[2018.09.05-13.57.29:670][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.05-13.57.29:698][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.05-13.57.29:785][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87.199ms to complete.
-[2018.09.05-13.57.29:786][  0]LogFileHelpers: Loading map 'BattleGround' took 0.718
-[2018.09.05-13.57.29:898][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.05-13.57.29:907][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.05-13.57.29:916][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.05-13.57.29:925][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.05-13.57.29:936][  0]LogCollectionManager: Loaded 0 collections in 0.002534 seconds
-[2018.09.05-13.57.29:983][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/Collections/' took 0.01s
-[2018.09.05-13.57.29:983][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/Developers/BrockDavis/Collections/' took 0.01s
-[2018.09.05-13.57.29:983][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/Collections/' took 0.01s
-[2018.09.05-13.57.29:983][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.09.05-13.57.29:998][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2578 classes and 605 folders.
-[2018.09.05-13.57.30:014][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.09.05-13.57.30:085][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.09.05-13.57.30:097][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.09.05-13.57.30:119][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.05-13.57.30:122][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.05-13.57.30:129][  0]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.05-13.57.30:228][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
-[2018.09.05-13.57.30:289][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.05-13.57.30:414][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.09.05-13.57.30:415][  0]LogLoad: (Engine Initialization) Total time: 11.11 seconds
-[2018.09.05-13.57.30:415][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.05-13.57.30:426][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.05-13.57.30:447][  0]LogContentStreaming: Texture pool size now 800 MB
-[2018.09.05-13.57.30:491][  1]LogAssetRegistry: Asset discovery search completed in 5.9087 seconds
-[2018.09.05-13.57.30:493][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.09.05-13.57.30:493][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
-[2018.09.05-13.57.31:463][ 66]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.05-22.59.18:400][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.05-22.59.18:400][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.05-22.59.18:429][  0]LogHAL: Display: Platform has ~ 16 GB [17054638080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.05-22.59.18:429][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.05-22.59.18:429][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.05-22.59.18:436][  0]LogInit: Computer: BROCKS-PC
+[2018.09.05-22.59.18:436][  0]LogInit: User: BrockDavis
+[2018.09.05-22.59.18:436][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.05-22.59.18:436][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2018.09.05-22.59.18:436][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.05-22.59.18:436][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.05-22.59.18:436][  0]LogMemory: Process Physical Memory: 99.96 MB used, 99.96 MB peak
+[2018.09.05-22.59.18:436][  0]LogMemory: Process Virtual Memory: 91.00 MB used, 91.00 MB peak
+[2018.09.05-22.59.18:436][  0]LogMemory: Physical Memory: 7516.71 MB used,  8747.86 MB free, 16264.57 MB total
+[2018.09.05-22.59.18:436][  0]LogMemory: Virtual Memory: 4644.85 MB used,  8747.86 MB free, 134217728.00 MB total
+[2018.09.05-22.59.18:627][  0]LogInit: Using OS detected language (en-US).
+[2018.09.05-22.59.18:627][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.05-22.59.18:628][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.05-22.59.19:151][  0]LogStreaming: Display: Took  0.524s to InitEngineTextLocalization.
+[2018.09.05-22.59.19:151][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.05-22.59.19:255][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.05-22.59.19:255][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.05-22.59.22:406][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.09.05-22.59.22:406][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.05-22.59.22:479][  0]LogD3D11RHI:    0. 'NVIDIA Quadro M2000M' (Feature Level 11_0)
+[2018.09.05-22.59.22:479][  0]LogD3D11RHI:       4053/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.05-22.59.22:495][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.09.05-22.59.22:495][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.05-22.59.22:497][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.05-22.59.22:497][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.05-22.59.22:498][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.05-22.59.22:544][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.05-22.59.22:544][  0]LogD3D11RHI:     GPU DeviceId: 0x13b0 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.05-22.59.22:544][  0]LogWindows: EnumDisplayDevices:
+[2018.09.05-22.59.22:544][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.09.05-22.59.22:545][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.05-22.59.22:545][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.05-22.59.22:545][  0]LogWindows:    3. 'NVIDIA Quadro M2000M' (P:0 D:0)
+[2018.09.05-22.59.22:545][  0]LogWindows:    4. 'NVIDIA Quadro M2000M' (P:0 D:0)
+[2018.09.05-22.59.22:546][  0]LogWindows:    5. 'NVIDIA Quadro M2000M' (P:0 D:0)
+[2018.09.05-22.59.22:546][  0]LogWindows:    6. 'NVIDIA Quadro M2000M' (P:0 D:0)
+[2018.09.05-22.59.22:546][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.05-22.59.22:546][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro M2000M
+[2018.09.05-22.59.22:546][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
+[2018.09.05-22.59.22:546][  0]LogD3D11RHI:      Driver Date: 3-16-2018
+[2018.09.05-22.59.22:546][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2018.09.05-22.59.22:590][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.05-22.59.22:611][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.05-22.59.22:612][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Intermediate/Shaders/WorkingDirectory/18948/).
+[2018.09.05-22.59.22:613][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Brock Davis/AppData/Local/Temp/UnrealShaderWorkingDir/D6DB43DA48A372692161FAA73D208314/'.
+[2018.09.05-22.59.23:156][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.05-22.59.23:186][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.05-22.59.23:216][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.05-22.59.23:247][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.05-22.59.23:283][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.05-22.59.23:317][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.05-22.59.23:350][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.05-22.59.23:385][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.05-22.59.23:409][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:544][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:545][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:545][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.59.23:559][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.05-22.59.23:676][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.05-22.59.23:676][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.05-22.59.23:718][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.05-22.59.23:718][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.05-22.59.23:745][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.05-22.59.23:776][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.05-22.59.23:803][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.05-22.59.23:840][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.05-22.59.23:865][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.05-22.59.23:865][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.05-22.59.24:238][  0]LogXGEController: Cleaning working directory: C:/Users/Brock Davis/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.05-22.59.24:238][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.05-22.59.24:238][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.05-22.59.24:238][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.05-22.59.26:766][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.05-22.59.26:838][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Brock Davis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.05-22.59.26:839][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Brock Davis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.05-22.59.26:839][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.05-22.59.26:839][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.05-22.59.26:839][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.05-22.59.26:839][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.05-22.59.26:867][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.05-22.59.26:879][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brock Davis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.05-22.59.26:879][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.05-22.59.26:879][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.05-22.59.26:905][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.05-22.59.26:906][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.05-22.59.26:927][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.05-22.59.27:277][  0]LogAssetRegistry: FAssetRegistry took 0.0292 seconds to start up
+[2018.09.05-22.59.27:735][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.05-22.59.28:157][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.05-22.59.28:195][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.05-22.59.28:195][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.05-22.59.28:195][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.05-22.59.28:195][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.05-22.59.28:244][  0]LogNetVersion: BattleTanksv2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 896500446)
+[2018.09.05-22.59.29:627][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.159089 seconds
+[2018.09.05-22.59.29:634][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.05-22.59.29:634][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.05-22.59.29:634][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.05-22.59.33:841][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.05-22.59.33:870][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.05-22.59.34:407][  0]SourceControl: Source control is disabled
+[2018.09.05-22.59.35:728][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.05-22.59.35:883][  0]LogOcInput: OculusInput pre-init called
+[2018.09.05-22.59.36:044][  0]LogEngine: Initializing Engine...
+[2018.09.05-22.59.36:072][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.09.05-22.59.36:073][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.05-22.59.36:073][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.05-22.59.36:073][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.05-22.59.36:073][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.05-22.59.36:517][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.05-22.59.36:550][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.05-22.59.36:564][  0]LogInit: XAudio2 using 'Speaker (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.05-22.59.36:704][  0]LogInit: FAudioDevice initialized.
+[2018.09.05-22.59.36:704][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.05-22.59.36:775][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Brock Davis/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.05-22.59.36:792][  0]LogInit: Texture streaming: Enabled
+[2018.09.05-22.59.36:872][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.05-22.59.36:910][  0]LogInit: Transaction tracking system initialized
+[2018.09.05-22.59.37:011][  0]BlueprintLog: New page: Editor Load
+[2018.09.05-22.59.37:441][  0]LocalizationService: Localization service is disabled
+[2018.09.05-22.59.38:276][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.05-22.59.38:276][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.05-22.59.38:276][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.05-22.59.38:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.05-22.59.38:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.05-22.59.38:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.05-22.59.38:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.05-22.59.38:285][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/' took 0.02s
+[2018.09.05-22.59.38:942][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.05-22.59.38:947][  0]LightingResults: New page: Lighting Build
+[2018.09.05-22.59.38:951][  0]MapCheck: New page: Map Check
+[2018.09.05-22.59.38:951][  0]LightingResults: New page: Lighting Build
+[2018.09.05-22.59.39:210][  0]LogBlueprint: Error: [Compiler Tank_BP] Can't connect pins  Barrel  and  Barrel to Set : Static Mesh Component Object Reference is not compatible with Tank Barrel Object Reference.
+[2018.09.05-22.59.39:211][  0]LogBlueprint: Error: [Compiler Tank_BP] Can't connect pins  Barrel to Set  and  Barrel : Tank Barrel Object Reference is not compatible with Static Mesh Component Object Reference.
+[2018.09.05-22.59.39:212][  0]LogBlueprint: Warning: [Compiler Tank_BP] [0025.24] Compile of Tank_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 6 ms] (/Game/Tank/Tank_BP.Tank_BP)
+[2018.09.05-22.59.39:897][  0]LogAIModule: Creating AISystem for world BattleGround
+[2018.09.05-22.59.41:300][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.05-22.59.41:327][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.05-22.59.41:413][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.306ms to complete.
+[2018.09.05-22.59.41:413][  0]LogFileHelpers: Loading map 'BattleGround' took 2.471
+[2018.09.05-22.59.41:555][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-22.59.41:565][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-22.59.41:576][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-22.59.41:586][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-22.59.41:614][  0]LogCollectionManager: Loaded 0 collections in 0.002604 seconds
+[2018.09.05-22.59.41:665][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/Collections/' took 0.01s
+[2018.09.05-22.59.41:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/Developers/BrockDavis/Collections/' took 0.01s
+[2018.09.05-22.59.41:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/Collections/' took 0.01s
+[2018.09.05-22.59.41:666][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.05-22.59.41:681][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2578 classes and 605 folders.
+[2018.09.05-22.59.41:694][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.09.05-22.59.42:112][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.09.05-22.59.42:135][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.09.05-22.59.42:171][  0]LogSlate: Took 0.007150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.05-22.59.42:181][  0]LogSlate: Took 0.006469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.05-22.59.42:195][  0]LogSlate: Took 0.006867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.05-22.59.42:372][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
+[2018.09.05-22.59.42:441][  0]LogSlate: Took 0.004482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.05-22.59.42:566][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.05-22.59.42:567][  0]LogLoad: (Engine Initialization) Total time: 28.60 seconds
+[2018.09.05-22.59.42:567][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.05-22.59.42:613][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.09.05-22.59.42:689][  1]LogAssetRegistry: Asset discovery search completed in 15.4351 seconds
+[2018.09.05-22.59.42:691][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.05-22.59.42:691][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
+[2018.09.05-22.59.43:613][ 55]LogSlate: Took 0.000501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.05-22.59.46:924][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-22.59.47:298][266]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenuUI_BP.MainMenuUI_BP
+[2018.09.05-22.59.47:980][266]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.09.05-22.59.48:882][266]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/PlayerUI_BP.PlayerUI_BP
+[2018.09.05-22.59.49:263][266]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank/Tank_BP.Tank_BP
+[2018.09.05-22.59.49:712][266]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Tank/tank_fbx_Barrel.tank_fbx_Barrel
+[2018.09.05-22.59.50:264][266]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Tank/tank_fbx_Body.tank_fbx_Body
+[2018.09.05-22.59.50:612][266]LogRenderer: Reallocating scene render targets to support 1432x924 Format 9 NumSamples 1 (Frame:1).
+[2018.09.05-22.59.50:612][266]LogSlate: Took 0.007174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.05-23.00.29:306][768]LogSlate: Took 0.004706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.05-23.01.17:468][828]LogAssetEditorManager: Opening Asset editor for Class /Script/BattleTanksv2.TankBarrel
+[2018.09.05-23.09.07:381][606]Candidate modules for hot reload:
+[2018.09.05-23.09.07:381][606]  BattleTanksv2
+[2018.09.05-23.09.07:381][606]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTanksv2,5282 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/BattleTanksv2.uproject" -canskiplink "C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/BattleTanksv2.uproject" ]
+[2018.09.05-23.09.07:385][606]Warning: Starting HotReload took  0.1s.
+[2018.09.05-23.09.48:161][991]CompilerResultsLog: New page: Compilation - Sep 5, 2018, 3:09:48 PM
+[2018.09.05-23.09.48:162][991]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.09.05-23.09.48:162][991]CompilerResultsLog: Compiling game modules for hot reload
+[2018.09.05-23.09.48:162][991]CompilerResultsLog: Parsing headers for BattleTanksv2Editor
+[2018.09.05-23.09.48:162][991]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\BattleTanksv2.uproject" "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\BattleTanksv2Editor\Development\BattleTanksv2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.09.05-23.09.48:162][991]CompilerResultsLog: Reflection code generated for BattleTanksv2Editor in 27.103298 seconds
+[2018.09.05-23.09.48:162][991]CompilerResultsLog: Building 6 actions with 8 processes...
+[2018.09.05-23.09.48:162][991]CompilerResultsLog:   [1/6] TankBarrel.cpp
+[2018.09.05-23.09.48:162][991]CompilerResultsLog:   [2/6] BattleTanksv2.init.gen.cpp
+[2018.09.05-23.09.48:162][991]CompilerResultsLog:   [3/6] TankBarrel.gen.cpp
+[2018.09.05-23.09.48:162][991]CompilerResultsLog:   [4/6] TankAimingComponent.cpp
+[2018.09.05-23.09.48:162][991]CompilerResultsLog:   [5/6] UE4Editor-BattleTanksv2-5282.lib
+[2018.09.05-23.09.48:162][991]CompilerResultsLog:      Creating library C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-5282.lib and object C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-5282.exp
+[2018.09.05-23.09.48:162][991]CompilerResultsLog:   [6/6] UE4Editor-BattleTanksv2-5282.dll
+[2018.09.05-23.09.48:162][991]CompilerResultsLog:      Creating library C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-5282.suppressed.lib and object C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-5282.suppressed.exp
+[2018.09.05-23.09.48:162][991]CompilerResultsLog: Total build time: 40.09 seconds (Parallel executor: 7.36 seconds)
+[2018.09.05-23.09.48:162][991]LogMainFrame: MainFrame: Module compiling took 40.787 seconds
+[2018.09.05-23.09.48:235][991]LogClass: Could not find existing class TankBarrel in package /Script/BattleTanksv2 for HotReload, assuming new class
+[2018.09.05-23.09.48:247][991]LogHotReload: Re-instancing TankBarrel after hot-reload.
+[2018.09.05-23.09.48:372][991]LogContentBrowser: Native class hierarchy updated for 'BattleTanksv2' in 0.0012 seconds. Added 6 classes and 2 folders.
+[2018.09.05-23.09.48:377][991]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.09.05-23.09.48:834][991]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2579 classes and 607 folders.
+[2018.09.05-23.09.49:031][991]Display: HotReload took 41.8s.
+[2018.09.05-23.09.50:426][998]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.09.05-23.09.54:231][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-23.11.25:107][287]LogSavePackage: Moving '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/BattleGround_Auto1731C55FA4F90A41AF3415DA5E125FA47.tmp' to '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/Autosaves/Game/BattleGround_Auto1.umap'
+[2018.09.05-23.11.25:118][287]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BattleGround' took 1.135
+[2018.09.05-23.11.25:118][287]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.135
+[2018.09.05-23.11.25:123][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tank/Tank_BP] ([1] browsable assets)...
+[2018.09.05-23.11.25:158][287]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tank/Tank_BP.Tank_BP]
+[2018.09.05-23.11.25:158][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tank/Tank_BP]
+[2018.09.05-23.11.25:215][287]LogSavePackage: Moving '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/Tank_BP_Auto104C81AF145CADF46122AC4A315548019.tmp' to '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/Autosaves/Game/Tank/Tank_BP_Auto1.uasset'
+[2018.09.05-23.11.25:217][287]LogFileHelpers: Auto-saving content packages took 0.095
+[2018.09.05-23.12.03:284][ 80]BlueprintLog: New page: Compile Tank_BP
+[2018.09.05-23.12.46:383][788]Candidate modules for hot reload:
+[2018.09.05-23.12.46:383][788]  BattleTanksv2
+[2018.09.05-23.12.46:384][788]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTanksv2,2526 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/BattleTanksv2.uproject" -canskiplink "C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/BattleTanksv2.uproject" ]
+[2018.09.05-23.12.46:388][788]Warning: Starting HotReload took  0.0s.
+[2018.09.05-23.13.05:744][ 46]CompilerResultsLog: New page: Compilation - Sep 5, 2018, 3:13:05 PM
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog: Compiling game modules for hot reload
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog: Parsing headers for BattleTanksv2Editor
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\BattleTanksv2.uproject" "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\BattleTanksv2Editor\Development\BattleTanksv2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog: Reflection code generated for BattleTanksv2Editor in 11.8773091 seconds
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog: Building 6 actions with 8 processes...
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog:   [1/6] TankBarrel.cpp
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog:   [2/6] BattleTanksv2.init.gen.cpp
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog:   [3/6] TankBarrel.gen.cpp
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog:   [4/6] TankAimingComponent.cpp
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog:   [5/6] UE4Editor-BattleTanksv2-2526.lib
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog:      Creating library C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-2526.lib and object C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-2526.exp
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog:   [6/6] UE4Editor-BattleTanksv2-2526.dll
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog:      Creating library C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-2526.suppressed.lib and object C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-2526.suppressed.exp
+[2018.09.05-23.13.05:745][ 46]CompilerResultsLog: Total build time: 18.65 seconds (Parallel executor: 2.29 seconds)
+[2018.09.05-23.13.05:745][ 46]LogMainFrame: MainFrame: Module compiling took 19.368 seconds
+[2018.09.05-23.13.05:819][ 46]LogClass: Could not find existing class TankBarrel in package /Script/BattleTanksv2 for HotReload, assuming new class
+[2018.09.05-23.13.05:831][ 46]LogHotReload: Re-instancing TankBarrel after hot-reload.
+[2018.09.05-23.13.05:983][ 46]LogContentBrowser: Native class hierarchy updated for 'BattleTanksv2' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.09.05-23.13.05:990][ 46]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.09.05-23.13.06:378][ 46]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2579 classes and 607 folders.
+[2018.09.05-23.13.06:380][ 46]Display: HotReload took 20.0s.
+[2018.09.05-23.21.26:354][140]LogSavePackage: Moving '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/BattleGround_Auto222F877CB4031283B75BCB0A98EC415FB.tmp' to '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/Autosaves/Game/BattleGround_Auto2.umap'
+[2018.09.05-23.21.26:360][140]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BattleGround' took 0.972
+[2018.09.05-23.21.26:360][140]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.972
+[2018.09.05-23.21.26:363][140]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tank/Tank_BP] ([1] browsable assets)...
+[2018.09.05-23.21.26:401][140]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tank/Tank_BP.Tank_BP]
+[2018.09.05-23.21.26:401][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tank/Tank_BP]
+[2018.09.05-23.21.26:455][140]LogSavePackage: Moving '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/Tank_BP_Auto2929B450842E840F36A5A708DFDE17B68.tmp' to '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/Autosaves/Game/Tank/Tank_BP_Auto2.uasset'
+[2018.09.05-23.21.26:457][140]LogFileHelpers: Auto-saving content packages took 0.094
+[2018.09.05-23.23.58:831][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-23.25.25:452][746]SourceControl: fatal: /Script: '/Script' is outside repository
+[2018.09.05-23.26.35:973][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-23.28.52:815][771]Cmd: TRANSACTION UNDO
+[2018.09.05-23.28.52:815][771]LogEditorTransaction: Undo Reset Location
+[2018.09.05-23.29.02:148][180]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Tank/tank_fbx_Barrel.tank_fbx_Barrel
+[2018.09.05-23.29.46:810][810]Candidate modules for hot reload:
+[2018.09.05-23.29.46:810][810]  BattleTanksv2
+[2018.09.05-23.29.46:810][810]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTanksv2,9572 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/BattleTanksv2.uproject" -canskiplink "C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/BattleTanksv2.uproject" ]
+[2018.09.05-23.29.46:814][810]Warning: Starting HotReload took  0.0s.
+[2018.09.05-23.30.08:682][909]CompilerResultsLog: New page: Compilation - Sep 5, 2018, 3:30:08 PM
+[2018.09.05-23.30.08:682][909]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.09.05-23.30.08:682][909]CompilerResultsLog: Compiling game modules for hot reload
+[2018.09.05-23.30.08:682][909]CompilerResultsLog: Parsing headers for BattleTanksv2Editor
+[2018.09.05-23.30.08:682][909]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\BattleTanksv2.uproject" "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\BattleTanksv2Editor\Development\BattleTanksv2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.09.05-23.30.08:682][909]CompilerResultsLog: Reflection code generated for BattleTanksv2Editor in 14.2894041 seconds
+[2018.09.05-23.30.08:682][909]CompilerResultsLog: Building 6 actions with 8 processes...
+[2018.09.05-23.30.08:682][909]CompilerResultsLog:   [1/6] TankBarrel.cpp
+[2018.09.05-23.30.08:682][909]CompilerResultsLog:   [2/6] BattleTanksv2.init.gen.cpp
+[2018.09.05-23.30.08:682][909]CompilerResultsLog:   [3/6] TankBarrel.gen.cpp
+[2018.09.05-23.30.08:682][909]CompilerResultsLog:   [4/6] TankAimingComponent.cpp
+[2018.09.05-23.30.08:682][909]CompilerResultsLog:   [5/6] UE4Editor-BattleTanksv2-9572.lib
+[2018.09.05-23.30.08:682][909]CompilerResultsLog:      Creating library C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-9572.lib and object C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-9572.exp
+[2018.09.05-23.30.08:682][909]CompilerResultsLog:   [6/6] UE4Editor-BattleTanksv2-9572.dll
+[2018.09.05-23.30.08:682][909]CompilerResultsLog:      Creating library C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-9572.suppressed.lib and object C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-9572.suppressed.exp
+[2018.09.05-23.30.08:682][909]CompilerResultsLog: Total build time: 21.34 seconds (Parallel executor: 2.47 seconds)
+[2018.09.05-23.30.08:682][909]LogMainFrame: MainFrame: Module compiling took 21.879 seconds
+[2018.09.05-23.30.08:781][909]LogClass: Could not find existing class TankBarrel in package /Script/BattleTanksv2 for HotReload, assuming new class
+[2018.09.05-23.30.08:794][909]LogHotReload: Re-instancing TankBarrel after hot-reload.
+[2018.09.05-23.30.08:941][909]LogContentBrowser: Native class hierarchy updated for 'BattleTanksv2' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.09.05-23.30.08:947][909]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.09.05-23.30.09:330][909]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2579 classes and 607 folders.
+[2018.09.05-23.30.09:332][909]Display: HotReload took 22.5s.
+[2018.09.05-23.30.35:541][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-23.31.17:538][527]BlueprintLog: New page: Compile Tank_BP
+[2018.09.05-23.31.47:018][272]BlueprintLog: New page: Compile Tank_BP
+[2018.09.05-23.31.48:501][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.09.05-23.31.48:557][337]LogSavePackage: Moving '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/Tank_BP05FBE9184F5E3796812FD88A3EA175EF.tmp' to '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/Tank/Tank_BP.uasset'
+[2018.09.05-23.32.15:482][550]LogSavePackage: Moving '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/BattleGround_Auto3601D56B44E9C97DAFD61C8AC0729B26D.tmp' to '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/Autosaves/Game/BattleGround_Auto3.umap'
+[2018.09.05-23.32.15:489][550]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BattleGround' took 1.118
+[2018.09.05-23.32.15:489][550]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.118
+[2018.09.05-23.56.25:194][418]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-23.56.25:237][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.09.05-23.56.25:238][418]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.05-23.56.25:242][418]LogPlayLevel: [PlayLevel] Compiling MainMenuUI_BP before play...
+[2018.09.05-23.56.25:576][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 338 ms (1 blueprints)
+[2018.09.05-23.56.25:589][418]PIE: New page: PIE session: BattleGround (Sep 5, 2018, 3:56:25 PM)
+[2018.09.05-23.56.25:589][418]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2018.09.05-23.56.25:677][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087469s)
+[2018.09.05-23.56.25:678][418]LogAIModule: Creating AISystem for world BattleGround
+[2018.09.05-23.56.25:678][418]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2018.09.05-23.56.25:678][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.088919s)
+[2018.09.05-23.56.25:732][418]LogInit: XAudio2 using 'Speaker (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.05-23.56.25:740][418]LogInit: FAudioDevice initialized.
+[2018.09.05-23.56.25:754][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-23.56.25:803][418]LogLoad: Game class is 'Battletankv2GameMode_BP_C'
+[2018.09.05-23.56.25:808][418]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 60) at 2018.09.05-19.56.25
+[2018.09.05-23.56.25:808][418]LogWorld: Bringing up level for play took: 0.004099
+[2018.09.05-23.56.25:864][418]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.09.05-23.56.25:867][418]LogTemp: Warning: AI found: Tank_BP_C_0
+[2018.09.05-23.56.25:867][418]LogTemp: Warning: PlayerTank possessing: Tank_BP_C_0
+[2018.09.05-23.56.25:870][418]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 0.184
+[2018.09.05-23.56.25:870][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.09.05-23.56.30:971][713]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.09.05-23.56.30:972][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-23.56.30:995][713]LogSlate: Window 'BattleTanksv2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.05-23.56.31:035][713]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-23.56.31:036][713]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.09.05-23.56.31:094][714]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.09.05-23.56.42:730][295]LogAIModule: Creating AISystem for world MainMenu
+[2018.09.05-23.56.42:735][295]LogAssetEditorManager: Opening Asset editor for World /Game/MainMenu.MainMenu
+[2018.09.05-23.56.45:381][295]LogSlate: Window 'Save Content' being destroyed
+[2018.09.05-23.56.45:648][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.05-23.56.46:555][295]LogSavePackage: Moving '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/BattleGround72E580BA4BBE4B527C5E50ACD4A05163.tmp' to '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/BattleGround.umap'
+[2018.09.05-23.56.46:601][295]LogFileHelpers: Saving map 'BattleGround' took 1.056
+[2018.09.05-23.56.46:602][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenuUI_BP" FILE="../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/UI/MainMenuUI_BP.uasset" SILENT=true
+[2018.09.05-23.56.46:636][295]LogSavePackage: Moving '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/MainMenuUI_BP5ABFF6F94982D80D2E12B4B028373E57.tmp' to '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/UI/MainMenuUI_BP.uasset'
+[2018.09.05-23.56.46:643][295]Cmd: MAP LOAD FILE="../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Content/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.05-23.56.46:643][295]LightingResults: New page: Lighting Build
+[2018.09.05-23.56.46:644][295]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.09.05-23.56.46:646][295]MapCheck: New page: Map Check
+[2018.09.05-23.56.46:646][295]LightingResults: New page: Lighting Build
+[2018.09.05-23.56.46:709][295]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.05-23.56.46:785][295]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.05-23.56.46:892][295]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.392ms to complete.
+[2018.09.05-23.56.46:892][295]LogFileHelpers: Loading map 'MainMenu' took 0.251
+[2018.09.05-23.56.47:857][342]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-23.56.47:897][342]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.56.47:898][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.05-23.56.47:898][342]PIE: New page: PIE session: MainMenu (Sep 5, 2018, 3:56:47 PM)
+[2018.09.05-23.56.47:898][342]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2018.09.05-23.56.47:899][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001086s)
+[2018.09.05-23.56.47:901][342]LogAIModule: Creating AISystem for world MainMenu
+[2018.09.05-23.56.47:901][342]LogPlayLevel: PIE: World Init took: (0.002030s)
+[2018.09.05-23.56.47:901][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.003301s)
+[2018.09.05-23.56.47:951][342]LogInit: XAudio2 using 'Speaker (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.05-23.56.47:959][342]LogInit: FAudioDevice initialized.
+[2018.09.05-23.56.47:990][342]LogLoad: Game class is 'GameModeBase'
+[2018.09.05-23.56.47:991][342]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.09.05-19.56.47
+[2018.09.05-23.56.47:991][342]LogWorld: Bringing up level for play took: 0.000312
+[2018.09.05-23.56.48:004][342]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenu 0.32
+[2018.09.05-23.56.48:005][342]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.56.56:984][875]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.56.56:985][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-23.56.57:024][875]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-23.56.57:024][875]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.56.57:066][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-23.56.57:151][877]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.09.05-23.56.59:452][ 14]LogEditorViewport: Clicking Background
+[2018.09.05-23.57.03:176][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-23.57.33:695][ 64]BlueprintLog: New page: Compile MainMenuUI_BP
+[2018.09.05-23.57.34:993][129]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-23.57.35:025][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.57.35:026][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.05-23.57.35:026][129]PIE: New page: PIE session: MainMenu (Sep 5, 2018, 3:57:35 PM)
+[2018.09.05-23.57.35:026][129]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2018.09.05-23.57.35:027][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000943s)
+[2018.09.05-23.57.35:027][129]LogAIModule: Creating AISystem for world MainMenu
+[2018.09.05-23.57.35:027][129]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2018.09.05-23.57.35:027][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.001698s)
+[2018.09.05-23.57.35:078][129]LogInit: XAudio2 using 'Speaker (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.05-23.57.35:085][129]LogInit: FAudioDevice initialized.
+[2018.09.05-23.57.35:094][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-23.57.35:129][129]LogLoad: Game class is 'GameModeBase'
+[2018.09.05-23.57.35:130][129]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.09.05-19.57.35
+[2018.09.05-23.57.35:130][129]LogWorld: Bringing up level for play took: 0.000733
+[2018.09.05-23.57.35:143][129]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.05-23.57.35:146][129]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenu -0.54
+[2018.09.05-23.57.35:146][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.57.41:058][480]LogSlate: Window 'BattleTanksv2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.05-23.57.41:069][480]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.57.41:110][480]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-23.57.41:110][480]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.57.41:170][481]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.09.05-23.57.46:763][678]LogSlate: Window 'Save Asset As' being destroyed
+[2018.09.05-23.58.10:968][118]BlueprintLog: New page: Compile MainMenuUI_BP
+[2018.09.05-23.58.11:150][118]BlueprintLog: New page: Compile MainMenuUI_BP
+[2018.09.05-23.58.13:233][230]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-23.58.13:264][230]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.58.13:265][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.05-23.58.13:265][230]PIE: New page: PIE session: MainMenu (Sep 5, 2018, 3:58:13 PM)
+[2018.09.05-23.58.13:265][230]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2018.09.05-23.58.13:266][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001013s)
+[2018.09.05-23.58.13:266][230]LogAIModule: Creating AISystem for world MainMenu
+[2018.09.05-23.58.13:267][230]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2018.09.05-23.58.13:267][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.001796s)
+[2018.09.05-23.58.13:317][230]LogInit: XAudio2 using 'Speaker (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.05-23.58.13:324][230]LogInit: FAudioDevice initialized.
+[2018.09.05-23.58.13:334][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-23.58.13:368][230]LogLoad: Game class is 'GameModeBase'
+[2018.09.05-23.58.13:370][230]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.09.05-19.58.13
+[2018.09.05-23.58.13:370][230]LogWorld: Bringing up level for play took: 0.000544
+[2018.09.05-23.58.13:382][230]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.05-23.58.13:385][230]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenu -0.3
+[2018.09.05-23.58.13:386][230]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.58.17:738][487]LogSlate: Window 'BattleTanksv2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.05-23.58.17:746][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.58.17:783][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-23.58.17:783][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.58.17:841][488]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.09.05-23.59.11:472][704]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-23.59.11:504][704]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.59.11:504][704]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.05-23.59.11:510][704]LogPlayLevel: [PlayLevel] Compiling MainMenuUI_BP before play...
+[2018.09.05-23.59.11:822][704]LogPlayLevel: PlayLevel: Blueprint regeneration took 316 ms (1 blueprints)
+[2018.09.05-23.59.11:822][704]PIE: New page: PIE session: MainMenu (Sep 5, 2018, 3:59:11 PM)
+[2018.09.05-23.59.11:822][704]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2018.09.05-23.59.11:823][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001287s)
+[2018.09.05-23.59.11:824][704]LogAIModule: Creating AISystem for world MainMenu
+[2018.09.05-23.59.11:824][704]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2018.09.05-23.59.11:824][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002303s)
+[2018.09.05-23.59.11:876][704]LogInit: XAudio2 using 'Speaker (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.05-23.59.11:884][704]LogInit: FAudioDevice initialized.
+[2018.09.05-23.59.11:895][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-23.59.11:930][704]LogLoad: Game class is 'GameModeBase'
+[2018.09.05-23.59.11:932][704]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.09.05-19.59.11
+[2018.09.05-23.59.11:932][704]LogWorld: Bringing up level for play took: 0.000525
+[2018.09.05-23.59.11:944][704]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.05-23.59.11:949][704]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenu 0.263
+[2018.09.05-23.59.11:949][704]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.59.19:614][109]LogSlate: Window 'BattleTanksv2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.05-23.59.19:622][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.59.19:659][109]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-23.59.19:660][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.05-23.59.19:721][110]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.09.06-00.00.03:512][718]BlueprintLog: New page: Compile MainMenuUI_BP
+[2018.09.06-00.00.05:219][800]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.06-00.00.05:252][800]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.00.05:253][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.06-00.00.05:253][800]PIE: New page: PIE session: MainMenu (Sep 5, 2018, 4:00:05 PM)
+[2018.09.06-00.00.05:253][800]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2018.09.06-00.00.05:254][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000945s)
+[2018.09.06-00.00.05:254][800]LogAIModule: Creating AISystem for world MainMenu
+[2018.09.06-00.00.05:254][800]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2018.09.06-00.00.05:254][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.001694s)
+[2018.09.06-00.00.05:305][800]LogInit: XAudio2 using 'Speaker (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.06-00.00.05:314][800]LogInit: FAudioDevice initialized.
+[2018.09.06-00.00.05:325][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.06-00.00.05:366][800]LogLoad: Game class is 'GameModeBase'
+[2018.09.06-00.00.05:368][800]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.09.05-20.00.05
+[2018.09.06-00.00.05:368][800]LogWorld: Bringing up level for play took: 0.000664
+[2018.09.06-00.00.05:380][800]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.06-00.00.05:383][800]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenu -0.301
+[2018.09.06-00.00.05:384][800]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.00.13:630][290]LogSlate: Window 'BattleTanksv2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.06-00.00.13:639][290]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.00.13:681][290]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.06-00.00.13:682][290]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.00.13:739][291]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.06-00.00.43:116][ 52]BlueprintLog: New page: Compile MainMenuUI_BP
+[2018.09.06-00.00.48:017][325]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.06-00.00.48:048][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.00.48:049][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.06-00.00.48:049][325]PIE: New page: PIE session: MainMenu (Sep 5, 2018, 4:00:48 PM)
+[2018.09.06-00.00.48:049][325]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2018.09.06-00.00.48:050][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001062s)
+[2018.09.06-00.00.48:050][325]LogAIModule: Creating AISystem for world MainMenu
+[2018.09.06-00.00.48:051][325]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2018.09.06-00.00.48:051][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.001863s)
+[2018.09.06-00.00.48:099][325]LogInit: XAudio2 using 'Speaker (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.06-00.00.48:107][325]LogInit: FAudioDevice initialized.
+[2018.09.06-00.00.48:117][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.06-00.00.48:158][325]LogLoad: Game class is 'GameModeBase'
+[2018.09.06-00.00.48:159][325]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.09.05-20.00.48
+[2018.09.06-00.00.48:160][325]LogWorld: Bringing up level for play took: 0.000609
+[2018.09.06-00.00.48:172][325]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.06-00.00.48:176][325]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenu 0.491
+[2018.09.06-00.00.48:177][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.00.53:213][624]LogNet: Browse: /Game/BattleGround
+[2018.09.06-00.00.53:214][624]LogLoad: LoadMap: /Game/BattleGround
+[2018.09.06-00.00.55:437][624]LogAIModule: Creating AISystem for world BattleGround
+[2018.09.06-00.00.55:438][624]LogLoad: Game class is 'Battletankv2GameMode_BP_C'
+[2018.09.06-00.00.55:453][624]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 60) at 2018.09.05-20.00.55
+[2018.09.06-00.00.55:454][624]LogWorld: Bringing up level for play took: 0.014645
+[2018.09.06-00.00.55:456][624]LogTemp: Warning: AI found: Tank_BP_C_0
+[2018.09.06-00.00.55:457][624]LogTemp: Warning: PlayerTank possessing: Tank_BP_C_0
+[2018.09.06-00.00.55:457][624]LogLoad: Took 2.243680 seconds to LoadMap(/Game/BattleGround)
+[2018.09.06-00.00.58:213][785]LogSlate: Window 'BattleTanksv2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.06-00.00.58:221][785]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.00.58:263][785]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.06-00.00.58:263][785]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.00.58:322][786]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.09.06-00.01.19:400][ 47]BlueprintLog: New page: Compile MainMenuUI_BP
+[2018.09.06-00.01.26:059][426]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.06-00.01.26:098][426]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.01.26:098][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.06-00.01.26:098][426]PIE: New page: PIE session: MainMenu (Sep 5, 2018, 4:01:26 PM)
+[2018.09.06-00.01.26:098][426]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2018.09.06-00.01.26:099][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001041s)
+[2018.09.06-00.01.26:100][426]LogAIModule: Creating AISystem for world MainMenu
+[2018.09.06-00.01.26:100][426]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2018.09.06-00.01.26:100][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.001991s)
+[2018.09.06-00.01.26:149][426]LogInit: XAudio2 using 'Speaker (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.06-00.01.26:158][426]LogInit: FAudioDevice initialized.
+[2018.09.06-00.01.26:167][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.06-00.01.26:206][426]LogLoad: Game class is 'GameModeBase'
+[2018.09.06-00.01.26:207][426]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.09.05-20.01.26
+[2018.09.06-00.01.26:207][426]LogWorld: Bringing up level for play took: 0.000530
+[2018.09.06-00.01.26:219][426]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.06-00.01.26:223][426]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenu 0.538
+[2018.09.06-00.01.26:223][426]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.01.35:173][958]LogNet: Browse: /Game/BattleGround
+[2018.09.06-00.01.35:173][958]LogLoad: LoadMap: /Game/BattleGround
+[2018.09.06-00.01.35:616][958]LogAIModule: Creating AISystem for world BattleGround
+[2018.09.06-00.01.35:617][958]LogLoad: Game class is 'Battletankv2GameMode_BP_C'
+[2018.09.06-00.01.35:626][958]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 60) at 2018.09.05-20.01.35
+[2018.09.06-00.01.35:627][958]LogWorld: Bringing up level for play took: 0.008918
+[2018.09.06-00.01.35:628][958]LogTemp: Warning: AI found: Tank_BP_C_0
+[2018.09.06-00.01.35:629][958]LogTemp: Warning: PlayerTank possessing: Tank_BP_C_0
+[2018.09.06-00.01.35:629][958]LogLoad: Took 0.455219 seconds to LoadMap(/Game/BattleGround)
+[2018.09.06-00.01.39:522][188]LogSlate: Window 'BattleTanksv2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.06-00.01.39:529][188]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.01.39:568][188]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.06-00.01.39:568][188]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.09.06-00.01.39:621][189]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.09.06-00.07.46:678][478]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainMenu' took 0.039
+[2018.09.06-00.07.46:681][478]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/MainMenuUI_BP] ([1] browsable assets)...
+[2018.09.06-00.07.46:681][478]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenuUI_BP]
+[2018.09.06-00.07.46:721][478]LogSavePackage: Moving '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/MainMenuUI_BP_Auto436308CE6426E72D32F65EA93D2341C88.tmp' to '../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/Saved/Autosaves/Game/UI/MainMenuUI_BP_Auto4.uasset'
+[2018.09.06-00.07.46:724][478]LogFileHelpers: Auto-saving content packages took 0.044
+[2018.09.06-00.47.56:855][344]Candidate modules for hot reload:
+[2018.09.06-00.47.56:856][344]  BattleTanksv2
+[2018.09.06-00.47.56:856][344]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTanksv2,7321 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/BattleTanksv2.uproject" -canskiplink "C:/Users/Brock Davis/Documents/BattleTanksv2/BattleTanksv2/BattleTanksv2.uproject" ]
+[2018.09.06-00.47.56:860][344]Warning: Starting HotReload took  0.1s.
+[2018.09.06-00.48.18:225][551]CompilerResultsLog: New page: Compilation - Sep 5, 2018, 4:48:18 PM
+[2018.09.06-00.48.18:226][551]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.09.06-00.48.18:226][551]CompilerResultsLog: Compiling game modules for hot reload
+[2018.09.06-00.48.18:226][551]CompilerResultsLog: Parsing headers for BattleTanksv2Editor
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\BattleTanksv2.uproject" "C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\BattleTanksv2Editor\Development\BattleTanksv2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.09.06-00.48.18:226][551]CompilerResultsLog: Reflection code generated for BattleTanksv2Editor in 12.2578312 seconds
+[2018.09.06-00.48.18:226][551]CompilerResultsLog: Building 11 actions with 8 processes...
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:   [1/11] Tank.cpp
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:   [2/11] TankBarrel.cpp
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:   [3/11] TankBarrel.gen.cpp
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:   [4/11] Tank.gen.cpp
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:   [5/11] TankPlayerController.gen.cpp
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:   [6/11] TankAimingComponent.cpp
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:   [7/11] TankPlayerController.cpp
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:   [8/11] TankAIController2.cpp
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:   [9/11] TankAIController2.gen.cpp
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:   [10/11] UE4Editor-BattleTanksv2-7321.lib
+[2018.09.06-00.48.18:226][551]CompilerResultsLog:      Creating library C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-7321.lib and object C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-7321.exp
+[2018.09.06-00.48.18:227][551]CompilerResultsLog:   [11/11] UE4Editor-BattleTanksv2-7321.dll
+[2018.09.06-00.48.18:227][551]CompilerResultsLog:      Creating library C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-7321.suppressed.lib and object C:\Users\Brock Davis\Documents\BattleTanksv2\BattleTanksv2\Intermediate\Build\Win64\UE4Editor\Development\BattleTanksv2\UE4Editor-BattleTanksv2-7321.suppressed.exp
+[2018.09.06-00.48.18:227][551]CompilerResultsLog: Total build time: 20.91 seconds (Parallel executor: 4.23 seconds)
+[2018.09.06-00.48.18:227][551]LogMainFrame: MainFrame: Module compiling took 21.377 seconds
+[2018.09.06-00.48.18:318][551]LogHotReload: Re-instancing Tank after hot-reload.
+[2018.09.06-00.48.18:647][551]LogHotReload: Re-instancing TankBarrel after hot-reload.
+[2018.09.06-00.48.18:833][551]LogContentBrowser: Native class hierarchy updated for 'BattleTanksv2' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.09.06-00.48.18:838][551]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.09.06-00.48.19:359][551]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2579 classes and 607 folders.
+[2018.09.06-00.48.19:361][551]Display: HotReload took 22.6s.
