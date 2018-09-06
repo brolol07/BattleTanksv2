@@ -410,6 +410,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\BattleTanksv2-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\BattleTanksv2\TankTurret.cpp" />
+    <ClInclude Include="..\..\Source\BattleTanksv2\TankTurret.h" />
     <None Include="..\..\BattleTanksv2.uproject" />
     <None Include="..\..\Source\BattleTanksv2.Target.cs" />
     <None Include="..\..\Source\BattleTanksv2Editor.Target.cs" />

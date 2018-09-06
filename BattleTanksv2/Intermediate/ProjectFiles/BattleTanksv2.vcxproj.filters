@@ -73,12 +73,18 @@
     <ClInclude Include="..\..\Source\BattleTanksv2\TankBarrel.h">
       <Filter>Source\BattleTanksv2</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BattleTanksv2\TankTurret.h">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BattleTanksv2\TankAimingComponent.cpp">
       <Filter>Source\BattleTanksv2</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\BattleTanksv2\TankBarrel.cpp">
+      <Filter>Source\BattleTanksv2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BattleTanksv2\TankTurret.cpp">
       <Filter>Source\BattleTanksv2</Filter>
     </ClCompile>
   </ItemGroup>
